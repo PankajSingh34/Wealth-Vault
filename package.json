@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "A comprehensive financial wellness application for tracking spending, setting goals, and making informed financial decisions",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csxark/Wealth-Vault.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
     "dev:backend": "cd backend && npm run dev",
@@ -28,9 +35,6 @@
     "express"
   ],
   "author": "Wealth Vault Team",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/csxark/Wealth-Vault.git"
-  }
+  "license": "MIT"
 }
+
